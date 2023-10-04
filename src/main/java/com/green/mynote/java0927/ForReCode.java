@@ -22,7 +22,7 @@ public class ForReCode {
             else{
                 System.out.print("");
             }
-            if( i % line == 8){
+            if( i % line == 0){
                 zen++;
                 wun = 1;
                 System.out.println();
