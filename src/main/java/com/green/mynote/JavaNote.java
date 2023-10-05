@@ -4,7 +4,7 @@ package com.green.mynote;
 취업 포트폴리오 or GitHub
 HACKATHON 참여
 취업사이트 관심기업 스크랩
-WORKNET 직업심리검사 실시 - 성인용심리검사 - PDF저장 - 카톡전송
+WORKNET 직업심리검사 실시 - 성인용심리검사 - PDF저장 - 카톡전송 : O
 입사지원서 제출
  */
 //
