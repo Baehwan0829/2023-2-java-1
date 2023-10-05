@@ -10,6 +10,10 @@ WORKNET 직업심리검사 실시 - 성인용심리검사 - PDF저장 - 카톡�
 //
 
 public class JavaNote{}
+/*
+ for문은 몇번 돌건지 확실히 알 때
+ while문은 내가 멈추고 싶을 때 멈추는 것
+ */
 // || : OR 연산자 논리식 중 하나라도 참이면 true
 // && : AND 연산자 논리식 중 모두 참이면 true
 

@@ -12,9 +12,8 @@ public class DoWhileRe {
             int tmp = i;
             //
             do {
-                if(tmp%10%3==0 && tmp%10 != 0)
+                if(tmp%10%3==0 && tmp%10 != 0) // tmp /= 10 , tmp = tmp / 10 과 동일
                     System.out.print("짝");
-                // tmp /= 10 , tmp = tmp / 10 과 동일
             }
             while ((tmp /= 10) != 0);
             System.out.println();
