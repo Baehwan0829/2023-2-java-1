@@ -10,11 +10,11 @@ public class FlowEx29 {
             System.out.printf("i=%d", i);
             //
             int hu = i;
-            int ten = hu % 10;
+            int ten = hu % 10; // 10을 나눈다고 생각하기
             String gro = "짝";
             //
             do {
-                if (ten % 3 == 0 && ten != 0) {
+                if (ten % 3 == 0 && ten != 0) { // 3의 배수인지 확인(0은 제외)
                     System.out.print(gro);
                 }
             }

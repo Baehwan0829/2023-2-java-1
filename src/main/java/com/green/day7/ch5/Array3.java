@@ -4,12 +4,13 @@ public class Array3 {
     public static void main(String[] args) {
         int[] arr1 = {5, 10, 15, 20};
         int[] arr2 = new int[arr1.length]; // 이 방에는 0이 세팅
-        // int[] arr2 = new int[null] 은 방 갯수
+        // int[] arr2 = new int[arr.length]의 방 갯수
         //
         // Deep copy
         //
         for (int i=0; i<arr1.length ; i++) {
             arr2[i] = arr1[i]; // arr1 주소 값을 arr2로 복사하는 것
+            System.out.println(arr2[i]);
         }
         //
         // 동등성 : equals 비교, Shallow copy는 동등성, 동일성 둘 다 True

@@ -9,7 +9,7 @@ public class FlowEx30_1 {
          */
        int sum = 0;
        int i = 0;
-       final int TRG = 100;
+       final int TRG = 100; // Magic Number
         //
         while (true){
             sum += ++i;

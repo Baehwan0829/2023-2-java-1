@@ -4,12 +4,11 @@ import java.util.Scanner;
 
 public class FlowEx32 {
     public static void main(String[] args) {
-        int input = 0;
         Scanner s = new Scanner(System.in);
         //
         while (true) {
             System.out.print("메뉴를 선택하세요 : ");
-            input = s.nextInt();
+            int input = s.nextInt();
             if (input == 0){
                 break;
             }

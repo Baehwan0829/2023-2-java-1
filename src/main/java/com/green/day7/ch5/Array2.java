@@ -12,7 +12,7 @@ public class Array2 {
         }
         System.out.println("|||||||||||||||||");
         //
-        arr1 = arr2;
+        arr1 = arr2; // 얕은 복사
         System.out.println("|||||||||||||||||");
 
         arr1[1] = 44;

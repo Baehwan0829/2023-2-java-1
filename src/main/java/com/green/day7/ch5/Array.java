@@ -4,10 +4,13 @@ public class Array {
     public static void main(String[] args){
         //
         // index는 0번부터 시작
+        //
         int n1 = 10, n2=20, n3=30; // 변수엔 값을 1개만 저장
         int[] arr = {10,20,30}; // 배열에 접근할 수 있는 주소값을 저장
         String[] arr2 = {"A", "B", "가", "나",};
         double[] arr3 = {-1,-2,-3};
+        int[] arr5 = new int[(int)(Math.random()+100)];
+        int[] arr6 = new int[arr5.length*10];
 
         int[] arr4 = new int[3]; // java에서는 이것만 사용한다.
 
@@ -31,5 +34,7 @@ public class Array {
         System.out.println("arr4[2] : " + arr4[2]);
         //
         System.out.println("arr.length : " + arr.length); // 배열 주소값 갯수 읽기
+        System.out.printf("arr5 : %d\n" , arr5.length);
+        System.out.printf("arr6 : %d\n" , arr6.length);
     }
 }
