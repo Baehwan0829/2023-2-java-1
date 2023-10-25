@@ -1,8 +1,10 @@
 package com.green.day10.ch6;
 
 
-
 public class MethodExam {
+    //
+    //
+    //
     void checkZero(int n){
         System.out.printf(n==0? "0 입니다" : "0이 아닙니다\n");
         //
@@ -19,10 +21,12 @@ public class MethodExam {
         }
         System.out.println("0이 아닙니다.");
     }
+    /////////////////////////////////////////////////////////////
     //
     int randomValFromTo(int r , int n){
         return (int)(Math.random() * ( n - r + 1)) + r;
     }
+    /////////////////////////////////////////////////////////////
     //
     void scoreResultPrint(int n){
         if ( 0 > n || n > 100){
@@ -41,7 +45,8 @@ public class MethodExam {
             System.out.println("D");
         }
     }
-    // void-return
+    /////////////////////////////////////////////////////////////
+    //
     void scoreResultPrint1(int n){
         if ( 0 > n || n > 100){
             System.out.println("잘못된 점수");

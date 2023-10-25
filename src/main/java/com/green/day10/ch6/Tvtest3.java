@@ -5,7 +5,7 @@ public class Tvtest3 {
         //
         Tv tv1 = new Tv();
 
-        Tv tv2 = tv1;
+        Tv tv2 = tv1; // shallow copy
         System.out.printf("tv1.channel : %d\n", tv1.channel);
         //
         tv1.channelUp();

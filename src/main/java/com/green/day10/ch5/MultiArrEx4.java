@@ -19,8 +19,8 @@ public class MultiArrEx4 {
         for(int i=0; i< words.length; i++){
             System.out.printf("Q%d.%s의 뜻은 : " , i+1, words[i][0]);
             String name = s.nextLine();
-            //
             String aa = words[i][0];
+            //
             if( name.equals(aa)){
                 System.out.println("정답입니다.");
             }

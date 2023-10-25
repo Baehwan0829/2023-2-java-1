@@ -1,6 +1,7 @@
 package com.green.day10.ch6;
 
 public class NumberBox {
+    //
     // 리턴타입 , 메소드 명 , 매게변수
     // int = 0;
     // void method

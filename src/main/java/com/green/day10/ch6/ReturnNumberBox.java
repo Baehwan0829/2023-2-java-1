@@ -2,8 +2,11 @@ package com.green.day10.ch6;
 
 public class ReturnNumberBox {
     //
-    // void 와 sum 의 차이점 n차 가공이 필요할 때 void를 쓴다.
+    // void 와 int 의 차이점 n차 가공이 필요할 때 void를 쓴다.
     // return method가 더 유연하다.
+    //
+    // class 내에서 변수를 선언했을 경우 : Member field
+    // method 내에 변수를 선언했을 경우 : Member Method
     //
     int sum(int n1, int n2){
         return  n1 + n2;

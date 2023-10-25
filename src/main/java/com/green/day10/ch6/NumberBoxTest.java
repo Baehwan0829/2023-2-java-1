@@ -2,6 +2,7 @@ package com.green.day10.ch6;
 
 public class NumberBoxTest {
     public static void main(String[] args){
+        //
         // NumberBox nb1 = new NumberBox();
         // new class(); : 객체생성, 생성자호출
         // 대문자로 시작하니 변수선언, 래퍼런스 변수는 주소값을 담을 수 있다.

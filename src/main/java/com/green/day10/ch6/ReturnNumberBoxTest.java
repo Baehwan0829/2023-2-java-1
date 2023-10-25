@@ -7,6 +7,7 @@ public class ReturnNumberBoxTest {
         // 메소드의 주소값 : r1
         /*
       2.new메소드주소값의 변수 = 1. 메소드의 주소값 new생성
+         ReturnNumberBox rn = new ReturnNumberBox();
          */
         ReturnNumberBox rn = new ReturnNumberBox();
         //
